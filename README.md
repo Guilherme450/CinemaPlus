@@ -55,11 +55,17 @@ Este projeto consiste em um sistema orientado a objetos em **Java**, desenvolvid
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/sistema-cinema.git
+   git clone https://github.com/Guilherme450/CinemaPlus
    cd sistema-cinema
 
+2. Crie uma nova branch para sua feature ou correção
+    ```bash
    git checkout -b minha-nova-feature
-   
+
+3. Implemente sua alteração
+
+4. Commit e push das alterações
+    ```bash
    git add .
    git commit -m "Adiciona nova funcionalidade: X"
    git push origin minha-nova-feature
