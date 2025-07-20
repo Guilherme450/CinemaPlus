@@ -56,7 +56,7 @@ Este projeto consiste em um sistema orientado a objetos em **Java**, desenvolvid
 
    ```bash
    git clone https://github.com/Guilherme450/CinemaPlus
-   cd sistema-cinema
+   cd CinemaPlus
 
 2. Crie uma nova branch para sua feature ou correção
     ```bash
