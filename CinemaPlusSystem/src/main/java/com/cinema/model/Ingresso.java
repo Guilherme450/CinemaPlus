@@ -1,5 +1,8 @@
 package com.cinema.model;
 
+import com.cinema.model.Pessoa;
+import com.cinema.model.Sala;
+
 public class Ingresso {
     private Pessoa pessoa;
     private Sala sala;
