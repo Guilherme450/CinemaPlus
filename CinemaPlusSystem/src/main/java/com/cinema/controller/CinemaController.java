@@ -49,7 +49,10 @@ public class CinemaController {
      */
     public void gerarIngresso(Pessoa cliente, int salaNum,
                              char fileira, int cadeira) {
-        cinema.venderIngresso(cliente, salaNum, fileira, cadeira);
+        try {
+            cinema.venderIngresso(cliente, salaNum, fileira, cadeira).exibirIngresso();
+        } catch (Exception e) {
+            System.out.println("Erro na emissão do ingresso: " + e.getMessage());
+        }
      }
-
 }
