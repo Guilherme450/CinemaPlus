@@ -1,0 +1,12 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import javafx.scene.layout.*?>-->
+<!--<?import javafx.scene.control.*?>-->
+
+<!--<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.cinema.view.CadastroCliente">-->
+<!--    <children>-->
+<!--        <Label layoutX="20" layoutY="20" text="🎬 Bem-vindo ao Sistema de Cinema"/>-->
+<!--        <Button layoutX="20" layoutY="60" text="Comprar Ingresso" onAction="#comprarIngresso"/>-->
+<!--        <Button layoutX="20" layoutY="100" text="Sair" onAction="#sair"/>-->
+<!--    </children>-->
+<!--</AnchorPane>-->

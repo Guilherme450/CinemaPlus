@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.cinema.view.IngressoPopup"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <GridPane xmlns="http://javafx.com/javafx/8.0.171"
+              xmlns:fx="http://javafx.com/fxml/1"
+              hgap="10" vgap="10"
+              style="-fx-font-size: 14px;">
+
+        <Label text="Filme:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <Label fx:id="lblFilme" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+
+        <Label text="Sala:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <Label fx:id="lblSala" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+        <Label text="Assento:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+        <Label fx:id="lblAssento" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+        <Label text="Cliente:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+        <Label fx:id="lblCliente" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+
+        <Label text="Categoria:" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+        <Label fx:id="lblCategoria" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+        <Label text="Valor:" GridPane.columnIndex="0" GridPane.rowIndex="5"/>
+        <Label fx:id="lblValor" GridPane.columnIndex="1" GridPane.rowIndex="5"/>
+    </GridPane>
+</AnchorPane>

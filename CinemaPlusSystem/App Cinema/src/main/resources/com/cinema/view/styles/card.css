@@ -1,0 +1,12 @@
+/* estilo.css */
+.scroll-pane {
+    -fx-background-color: #fff;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.content-box {
+    -fx-spacing: 15px;
+}

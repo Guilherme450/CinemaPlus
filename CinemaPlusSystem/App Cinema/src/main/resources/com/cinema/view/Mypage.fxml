@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="rootPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CinemaController">
+    
+    <top>
+        <VBox spacing="5">
+            <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Gerenciamento de Cinema" />
+            <MenuBar>
+                <Menu text="Arquivo">
+                    <MenuItem onAction="#handleSair" text="Sair" />
+                </Menu>
+                <Menu text="Gerenciar">
+                    <MenuItem onAction="#handleCadastrarFilme" text="Cadastrar Novo Filme" />
+                </Menu>
+            </MenuBar>
+        </VBox>
+    </top>
+
+    <center>
+        <FlowPane fx:id="salaContainer" hgap="20" prefHeight="259.0" prefWidth="289.0" vgap="20">
+            <!-- Exemplo de uma sala. Copie e edite para mais 4 salas -->
+            <AnchorPane prefHeight="250" prefWidth="200" style="-fx-border-color: black; -fx-background-color: #f4f4f4;">
+                <children>
+                    <VBox alignment="CENTER" spacing="10" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10" AnchorPane.topAnchor="10">
+                        <Label fx:id="sala1Label" text="Sala 1" />
+                        <Label fx:id="filmeSala1Label" text="Filme: Nenhum em cartaz" />
+                        <ImageView fx:id="posterSala1" fitHeight="150" fitWidth="100" />
+                        <Button onAction="#handleVerAssentos" text="Ver Assentos">
+                     <VBox.margin>
+                        <Insets bottom="8.0" />
+                     </VBox.margin></Button>
+                  <padding>
+                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                  </padding>
+                    </VBox>
+                </children>
+            </AnchorPane>
+            <!-- Adicione mais AnchorPanes para Sala 2 a Sala 5 -->
+        </FlowPane>
+    </center>
+
+</BorderPane>
