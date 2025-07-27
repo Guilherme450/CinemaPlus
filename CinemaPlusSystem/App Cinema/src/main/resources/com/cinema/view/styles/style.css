@@ -1,0 +1,25 @@
+/* Altera cor do botão quando pressionado */
+.button:focused {
+    -fx-background-color: #1e3552; /* cor vermelha ao clicar */
+    -fx-text-fill: white;
+    -fx-border-style: solid;
+    -fx-border-color: #0072ff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 18px;
+
+}
+
+.button {
+    -fx-background-color: #c5c5c5;
+    -fx-text-fill: #000;
+}
+
+.button:hover {
+    -fx-background-color: red;
+}
+
+/* Altera cor do ToggleButton quando selecionado */
+.toggle-button:selected {
+    -fx-background-color: #55ff55; /* verde quando selecionado */
+    -fx-text-fill: black;
+}
