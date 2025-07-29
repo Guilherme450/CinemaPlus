@@ -50,6 +50,7 @@ Este projeto consiste em um sistema orientado a objetos em **Java**, desenvolvid
 ## 🧪 Tecnologias Utilizadas
 
 - Linguagem: **Java**
+- Framework: **JavaFX**
 - Paradigma: **Programação Orientada a Objetos**
 - IDE sugerida: IntelliJ IDEA ou VS code
 
