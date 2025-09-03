@@ -4,7 +4,7 @@
 Projeto desenvolvido como atividade final da disciplina de **Programação Orientada a Objetos (POO)** no Instituto Federal de Educação, Ciência e Tecnologia do Maranhão - IFMA (Campus Caxias), sob orientação do professor **Dr. Wilker Luz**.
 # Desenvolvedores
 
-<table> <tr> <td align="center"> <a href="https://github.com/Guilherme450"> <img src="https://github.com/Guilherme450.png" width="100px;" alt="Foto de Guilherme no GitHub"/><br /> <sub><b>Guilherme Lima</b></sub> </a> </td> <td align="center"> <a href="https://github.com/Kelvinl14"> <img src="https://media.licdn.com/dms/image/v2/D4D03AQG-jEXhl8_L7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715601864655?e=1756339200&v=beta&t=ou2t6AKj0t4ff2Pz_8YBMRzwGBaTH74jdzQblJVyMTk" width="100px;" alt="Foto do Segundo Autor"/><br /> <sub><b>Kelvyn Leôncio</b></sub> </a> </td> </tr> </table>
+<table> <tr> <td align="center"> <a href="https://github.com/Guilherme450"> <img src="https://github.com/Guilherme450.png" width="100px;" alt="Foto de Guilherme no GitHub"/><br /> <sub><b>Guilherme Lima</b></sub> </a> </td> <td align="center"> <a href="https://github.com/Kelvinl14"> <img src="https://media.licdn.com/dms/image/v2/D4D03AQG-jEXhl8_L7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715601864655?e=1759968000&v=beta&t=L9cJsA2WVqiXW8flKzWs3SBz9lGzJteTZoaR2RQW1pE" width="100px;" alt="Foto do Segundo Autor"/><br /> <sub><b>Kelvyn Leôncio</b></sub> </a> </td> </tr> </table>
 
 ## 📌 Descrição
 
